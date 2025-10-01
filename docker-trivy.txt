@@ -1,0 +1,185 @@
+
+Report Summary
+
+┌──────────────────────────────────────────────────────────────────────────────────┬────────────┬─────────────────┬─────────┐
+│                                      Target                                      │    Type    │ Vulnerabilities │ Secrets │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ helloapp:dev (alpine 3.22.1)                                                     │   alpine   │        6        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/Flask-2.0.1.dist-info/METADATA    │ python-pkg │        1        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/Jinja2-3.0.1.dist-info/METADATA   │ python-pkg │        5        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/Werkzeug-2.0.1.dist-info/METADATA │ python-pkg │        6        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/click-8.0.1.dist-info/METADATA    │ python-pkg │        0        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/gunicorn-20.1.0.dist-info/METADA- │ python-pkg │        2        │    -    │
+│ TA                                                                               │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/itsdangerous-2.0.1.dist-info/MET- │ python-pkg │        0        │    -    │
+│ ADATA                                                                            │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/markupsafe-2.0.1.dist-info/METAD- │ python-pkg │        0        │    -    │
+│ ATA                                                                              │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/pip-25.2.dist-info/METADATA       │ python-pkg │        1        │    -    │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/pkg_resources/tests/data/my-test- │ python-pkg │        0        │    -    │
+│ -package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/PKG-INFO            │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/pkg_resources/tests/data/my-test- │ python-pkg │        0        │    -    │
+│ -package_zipped-egg/my_test_package-1.0-py3.7.egg                                │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools-80.9.0.dist-info/META- │ python-pkg │        0        │    -    │
+│ DATA                                                                             │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/autocommand-2- │ python-pkg │        0        │    -    │
+│ .2.2.dist-info/METADATA                                                          │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/backports.tar- │ python-pkg │        0        │    -    │
+│ file-1.2.0.dist-info/METADATA                                                    │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/importlib_met- │ python-pkg │        0        │    -    │
+│ adata-8.0.0.dist-info/METADATA                                                   │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/inflect-7.3.1- │ python-pkg │        0        │    -    │
+│ .dist-info/METADATA                                                              │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/jaraco.collec- │ python-pkg │        0        │    -    │
+│ tions-5.1.0.dist-info/METADATA                                                   │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/jaraco.contex- │ python-pkg │        0        │    -    │
+│ t-5.3.0.dist-info/METADATA                                                       │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/jaraco.functo- │ python-pkg │        0        │    -    │
+│ ols-4.0.1.dist-info/METADATA                                                     │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/jaraco.text-3- │ python-pkg │        0        │    -    │
+│ .12.1.dist-info/METADATA                                                         │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/more_itertool- │ python-pkg │        0        │    -    │
+│ s-10.3.0.dist-info/METADATA                                                      │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/packaging-24.- │ python-pkg │        0        │    -    │
+│ 2.dist-info/METADATA                                                             │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/platformdirs-- │ python-pkg │        0        │    -    │
+│ 4.2.2.dist-info/METADATA                                                         │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/tomli-2.0.1.d- │ python-pkg │        0        │    -    │
+│ ist-info/METADATA                                                                │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/typeguard-4.3- │ python-pkg │        0        │    -    │
+│ .0.dist-info/METADATA                                                            │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/typing_extens- │ python-pkg │        0        │    -    │
+│ ions-4.12.2.dist-info/METADATA                                                   │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/wheel-0.45.1.- │ python-pkg │        0        │    -    │
+│ dist-info/METADATA                                                               │            │                 │         │
+├──────────────────────────────────────────────────────────────────────────────────┼────────────┼─────────────────┼─────────┤
+│ home/appuser/venv/lib/python3.12/site-packages/setuptools/_vendor/zipp-3.19.2.d- │ python-pkg │        0        │    -    │
+│ ist-info/METADATA                                                                │            │                 │         │
+└──────────────────────────────────────────────────────────────────────────────────┴────────────┴─────────────────┴─────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+helloapp:dev (alpine 3.22.1)
+============================
+Total: 6 (UNKNOWN: 0, LOW: 2, MEDIUM: 4, HIGH: 0, CRITICAL: 0)
+
+┌────────────┬───────────────┬──────────┬────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│  Library   │ Vulnerability │ Severity │ Status │ Installed Version │ Fixed Version │                            Title                             │
+├────────────┼───────────────┼──────────┼────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libcrypto3 │ CVE-2025-9230 │ MEDIUM   │ fixed  │ 3.5.1-r0          │ 3.5.4-r0      │ Issue summary: An application trying to decrypt CMS messages │
+│            │               │          │        │                   │               │ encrypted ...                                                │
+│            │               │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-9230                    │
+│            ├───────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2025-9231 │          │        │                   │               │ Issue summary: A timing side-channel which could potentially │
+│            │               │          │        │                   │               │ allow rem ...                                                │
+│            │               │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-9231                    │
+│            ├───────────────┼──────────┤        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2025-9232 │ LOW      │        │                   │               │ Issue summary: An application using the OpenSSL HTTP client  │
+│            │               │          │        │                   │               │ API functi ......                                            │
+│            │               │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-9232                    │
+├────────────┼───────────────┼──────────┤        │                   │               ├──────────────────────────────────────────────────────────────┤
+│ libssl3    │ CVE-2025-9230 │ MEDIUM   │        │                   │               │ Issue summary: An application trying to decrypt CMS messages │
+│            │               │          │        │                   │               │ encrypted ...                                                │
+│            │               │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-9230                    │
+│            ├───────────────┤          │        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2025-9231 │          │        │                   │               │ Issue summary: A timing side-channel which could potentially │
+│            │               │          │        │                   │               │ allow rem ...                                                │
+│            │               │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-9231                    │
+│            ├───────────────┼──────────┤        │                   │               ├──────────────────────────────────────────────────────────────┤
+│            │ CVE-2025-9232 │ LOW      │        │                   │               │ Issue summary: An application using the OpenSSL HTTP client  │
+│            │               │          │        │                   │               │ API functi ......                                            │
+│            │               │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2025-9232                    │
+└────────────┴───────────────┴──────────┴────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
+
+Python (python-pkg)
+===================
+Total: 15 (UNKNOWN: 0, LOW: 1, MEDIUM: 9, HIGH: 5, CRITICAL: 0)
+
+┌─────────────────────┬────────────────┬──────────┬──────────┬───────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│       Library       │ Vulnerability  │ Severity │  Status  │ Installed Version │ Fixed Version │                            Title                             │
+├─────────────────────┼────────────────┼──────────┼──────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ Flask (METADATA)    │ CVE-2023-30861 │ HIGH     │ fixed    │ 2.0.1             │ 2.3.2, 2.2.5  │ flask: Possible disclosure of permanent session cookie due   │
+│                     │                │          │          │                   │               │ to missing Vary: Cookie...                                   │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2023-30861                   │
+├─────────────────────┼────────────────┼──────────┤          ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ Jinja2 (METADATA)   │ CVE-2024-22195 │ MEDIUM   │          │ 3.0.1             │ 3.1.3         │ jinja2: HTML attribute injection when passing user input as  │
+│                     │                │          │          │                   │               │ keys to xmlattr...                                           │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-22195                   │
+│                     ├────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2024-34064 │          │          │                   │ 3.1.4         │ jinja2: accepts keys containing non-attribute characters     │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-34064                   │
+│                     ├────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2024-56201 │          │          │                   │ 3.1.5         │ jinja2: Jinja has a sandbox breakout through malicious       │
+│                     │                │          │          │                   │               │ filenames                                                    │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-56201                   │
+│                     ├────────────────┤          │          │                   │               ├──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2024-56326 │          │          │                   │               │ jinja2: Jinja has a sandbox breakout through indirect        │
+│                     │                │          │          │                   │               │ reference to format method...                                │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-56326                   │
+│                     ├────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2025-27516 │          │          │                   │ 3.1.6         │ jinja2: Jinja sandbox breakout through attr filter selecting │
+│                     │                │          │          │                   │               │ format method                                                │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-27516                   │
+├─────────────────────┼────────────────┼──────────┤          ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ Werkzeug (METADATA) │ CVE-2023-25577 │ HIGH     │          │ 2.0.1             │ 2.2.3         │ python-werkzeug: high resource usage when parsing multipart  │
+│                     │                │          │          │                   │               │ form data with many fields...                                │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2023-25577                   │
+│                     ├────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2024-34069 │          │          │                   │ 3.0.3         │ python-werkzeug: user may execute code on a developer's      │
+│                     │                │          │          │                   │               │ machine                                                      │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-34069                   │
+│                     ├────────────────┼──────────┤          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2023-46136 │ MEDIUM   │          │                   │ 3.0.1, 2.3.8  │ python-werkzeug: high resource consumption leading to denial │
+│                     │                │          │          │                   │               │ of service                                                   │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2023-46136                   │
+│                     ├────────────────┤          │          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2024-49766 │          │          │                   │ 3.0.6         │ werkzeug: python-werkzeug: Werkzeug safe_join not safe on    │
+│                     │                │          │          │                   │               │ Windows                                                      │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-49766                   │
+│                     ├────────────────┤          │          │                   │               ├──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2024-49767 │          │          │                   │               │ werkzeug: python-werkzeug: Werkzeug possible resource        │
+│                     │                │          │          │                   │               │ exhaustion when parsing file data in forms...                │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-49767                   │
+│                     ├────────────────┼──────────┤          │                   ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2023-23934 │ LOW      │          │                   │ 2.2.3         │ python-werkzeug: cookie prefixed with = can shadow           │
+│                     │                │          │          │                   │               │ unprefixed cookie                                            │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2023-23934                   │
+├─────────────────────┼────────────────┼──────────┤          ├───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ gunicorn (METADATA) │ CVE-2024-1135  │ HIGH     │          │ 20.1.0            │ 22.0.0        │ python-gunicorn: HTTP Request Smuggling due to improper      │
+│                     │                │          │          │                   │               │ validation of Transfer-Encoding headers                      │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-1135                    │
+│                     ├────────────────┤          │          │                   │               ├──────────────────────────────────────────────────────────────┤
+│                     │ CVE-2024-6827  │          │          │                   │               │ gunicorn: HTTP Request Smuggling in benoitc/gunicorn         │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2024-6827                    │
+├─────────────────────┼────────────────┼──────────┼──────────┼───────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ pip (METADATA)      │ CVE-2025-8869  │ MEDIUM   │ affected │ 25.2              │               │ pip: pip missing checks on symbolic link extraction          │
+│                     │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2025-8869                    │
+└─────────────────────┴────────────────┴──────────┴──────────┴───────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘

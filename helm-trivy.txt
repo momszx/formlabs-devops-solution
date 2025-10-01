@@ -1,0 +1,18 @@
+
+Report Summary
+
+┌───────────────────────────────┬────────────┬───────────────────┐
+│            Target             │    Type    │ Misconfigurations │
+├───────────────────────────────┼────────────┼───────────────────┤
+│ templates/deployment.yaml     │    helm    │         0         │
+├───────────────────────────────┼────────────┼───────────────────┤
+│ templates/namespace.yaml      │ kubernetes │         0         │
+├───────────────────────────────┼────────────┼───────────────────┤
+│ templates/service.yaml        │ kubernetes │         0         │
+├───────────────────────────────┼────────────┼───────────────────┤
+│ templates/serviceaccount.yaml │ kubernetes │         0         │
+└───────────────────────────────┴────────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
