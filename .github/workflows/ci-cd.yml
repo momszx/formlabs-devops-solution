@@ -10,10 +10,10 @@ env:
   IMAGE_NAME: helloapp
   IMAGE_TAG: ${{ github.sha }}
 
-  permissions:
-    contents: read
-    security-events: write
-    actions: read
+permissions:
+  contents: read
+  security-events: write
+  actions: read
 
 jobs:
   test:
